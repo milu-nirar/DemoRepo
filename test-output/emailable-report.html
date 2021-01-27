@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Free CRM Automation Suite </th></tr><tr><td><a href="#t0">Free CRm Apllication Test cases</a></td><td class="num">2</td><td class="num attn">4</td><td class="num attn">4</td><td class="num">65,688</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Free CRM Automation Suite </th></tr></tbody><tbody id="t0"><tr><th colspan="4">Free CRm Apllication Test cases &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.crm.qa.testcases.ContactsPageTest</td><td><a href="#m0">setUp</a></td><td rowspan="1">1611686364819</td><td rowspan="1">0</td></tr><tr><th colspan="4">Free CRm Apllication Test cases &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.crm.qa.testcases.HomePageTest</td><td><a href="#m1">clickOnContactTest</a></td><td rowspan="1">1611686336257</td><td rowspan="1">10049</td></tr><tr class="failedeven"><td><a href="#m2">verifyuserNameTest</a></td><td rowspan="1">1611686354695</td><td rowspan="1">9474</td></tr><tr class="failedodd"><td rowspan="2">com.crm.qa.testcases.LoginPageTest</td><td><a href="#m3">loginPageTitleTest</a></td><td rowspan="1">1611686331658</td><td rowspan="1">12</td></tr><tr class="failedodd"><td><a href="#m4">validateCRMImageTest</a></td><td rowspan="1">1611686317026</td><td rowspan="1">10026</td></tr><tr><th colspan="4">Free CRm Apllication Test cases &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="5">com.crm.qa.testcases.ContactsPageTest</td><td><a href="#m5">setUp</a></td><td rowspan="2">1611686371825</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m6">setUp</a></td></tr><tr class="skippedeven"><td><a href="#m7">tearDown</a></td><td rowspan="3">1611686371826</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m8">tearDown</a></td></tr><tr class="skippedeven"><td><a href="#m9">tearDown</a></td></tr><tr><th colspan="4">Free CRm Apllication Test cases &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="4">com.crm.qa.testcases.ContactsPageTest</td><td><a href="#m10">selectMultipleContactsTest</a></td><td rowspan="1">1611686371826</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m11">selectcontactsTest</a></td><td rowspan="1">1611686371827</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m12">validatecreateNewContactTest</a></td><td rowspan="1">1611686371829</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m13">verifyContactsLabelTest</a></td><td rowspan="1">1611686371824</td><td rowspan="1">0</td></tr><tr><th colspan="4">Free CRm Apllication Test cases &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.crm.qa.testcases.HomePageTest</td><td><a href="#m14">validateHomePageTitleTest</a></td><td rowspan="1">1611686350504</td><td rowspan="1">7</td></tr><tr class="passedodd"><td rowspan="1">com.crm.qa.testcases.LoginPageTest</td><td><a href="#m15">loginTest</a></td><td rowspan="1">1611686310885</td><td rowspan="1">313</td></tr></tbody></table><h2>Free CRm Apllication Test cases</h2><h3 id="m0">com.crm.qa.testcases.ContactsPageTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Error: Unresolved compilation problem: 
+	Unreachable catch block for IOException. This exception is never thrown from the try statement body
+
+	at com.crm.qa.util.WebEventListener.onException(WebEventListener.java:66)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at com.sun.proxy.$Proxy6.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
+	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at com.crm.qa.pages.LoginPage.login(LoginPage.java:58)
+	at com.crm.qa.testcases.ContactsPageTest.setUp(ContactsPageTest.java:35)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.crm.qa.testcases.HomePageTest#clickOnContactTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Error: Unresolved compilation problem: 
+	Unreachable catch block for IOException. This exception is never thrown from the try statement body
+
+	at com.crm.qa.util.WebEventListener.onException(WebEventListener.java:66)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at com.sun.proxy.$Proxy6.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
+	at com.sun.proxy.$Proxy7.perform(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.perform(EventFiringWebDriver.java:360)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at com.crm.qa.pages.HomePage.clickOnContacts(HomePage.java:45)
+	at com.crm.qa.testcases.HomePageTest.clickOnContactTest(HomePageTest.java:59)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.crm.qa.testcases.HomePageTest#verifyuserNameTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Error: Unresolved compilation problem: 
+	Unreachable catch block for IOException. This exception is never thrown from the try statement body
+
+	at com.crm.qa.util.WebEventListener.onException(WebEventListener.java:66)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at com.sun.proxy.$Proxy6.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
+	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
+	at com.crm.qa.pages.HomePage.verifyUserName(HomePage.java:39)
+	at com.crm.qa.testcases.HomePageTest.verifyuserNameTest(HomePageTest.java:52)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">com.crm.qa.testcases.LoginPageTest#loginPageTitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Not Matching Title expected [#1 Free CRM customer relationship management software cloud] but found [Cogmento CRM]
+	at com.crm.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:36)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">com.crm.qa.testcases.LoginPageTest#validateCRMImageTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Error: Unresolved compilation problem: 
+	Unreachable catch block for IOException. This exception is never thrown from the try statement body
+
+	at com.crm.qa.util.WebEventListener.onException(WebEventListener.java:66)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at com.sun.proxy.$Proxy6.onException(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
+	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
+	at com.crm.qa.pages.LoginPage.validateCRMImage(LoginPage.java:52)
+	at com.crm.qa.testcases.LoginPageTest.validateCRMImageTest(LoginPageTest.java:41)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">com.crm.qa.testcases.ContactsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">com.crm.qa.testcases.ContactsPageTest#setUp</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">com.crm.qa.testcases.ContactsPageTest#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">com.crm.qa.testcases.ContactsPageTest#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m9">com.crm.qa.testcases.ContactsPageTest#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m10">com.crm.qa.testcases.ContactsPageTest#selectMultipleContactsTest</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m11">com.crm.qa.testcases.ContactsPageTest#selectcontactsTest</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m12">com.crm.qa.testcases.ContactsPageTest#validatecreateNewContactTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.Error: Unresolved compilation problem: 
+	WorkbookFactory cannot be resolved
+
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	WorkbookFactory cannot be resolved
+
+	at com.crm.qa.util.TestUtil.getTestData(TestUtil.java:58)
+	at com.crm.qa.testcases.ContactsPageTest.getTestData(ContactsPageTest.java:60)
+	... 20 more
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m13">com.crm.qa.testcases.ContactsPageTest#verifyContactsLabelTest</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m14">com.crm.qa.testcases.HomePageTest#validateHomePageTitleTest</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m15">com.crm.qa.testcases.LoginPageTest#loginTest</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Free CRM Automation Suite ]">
+  <listeners>
+    <listener class-name="com.QA.ExtentReportListeener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Free CRm Apllication Test cases">
+    <classes>
+      <class name="com.crm.qa.testcases.LoginPageTest"/>
+      <class name="com.crm.qa.testcases.HomePageTest"/>
+      <class name="com.crm.qa.testcases.ContactsPageTest"/>
+    </classes>
+  </test> <!-- Free CRm Apllication Test cases -->
+  <test name="Free CRm Apllication Test cases(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyuserNameTest"/>
+          <include name="tearDown"/>
+          <include name="clickOnContactTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.ContactsPageTest">
+        <methods>
+          <include name="selectcontactsTest"/>
+          <include name="verifyContactsLabelTest"/>
+          <include name="setUp"/>
+          <include name="validatecreateNewContactTest"/>
+          <include name="selectMultipleContactsTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="validateCRMImageTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginPageTitleTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Free CRm Apllication Test cases(failed) -->
+</suite> <!-- Failed suite [Free CRM Automation Suite ] -->
